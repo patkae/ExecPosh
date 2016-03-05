@@ -1,0 +1,6 @@
+﻿<job>
+	<script language="VBScript" src="execposh.vbs" />
+	<script language="VBScript">
+		WScript.Quit ExecPSScript(GetScriptFolder() & "\Invoke-ScriptName.ps1", "log-scriptname.log")
+	</script>
+</job>
